@@ -1,9 +1,9 @@
-# NumPy Program: Column-wise Sorting of a 2D Array
+# 5a.NumPy Program: Column-wise Sorting of a 2D Array
 
-## 🎯 Aim
+##  Aim
 To write a **NumPy** program that sorts the elements in each column of a given 2D array in ascending order.
 
-## 🧠 Algorithm
+##  Algorithm
 
 1. **Import NumPy**: Start by importing the NumPy library.
 2. **Get Input**: Accept a 2D NumPy array from the user.
@@ -11,7 +11,7 @@ To write a **NumPy** program that sorts the elements in each column of a given 2
 4. **Store Result**: Store the sorted result in a new array.
 5. **Display Output**: Print the original array and the column-wise sorted array.
 
-## 🧾 Program
+##  Program
 ```
 import numpy as np
 x=np.array(eval(input()))
@@ -27,12 +27,12 @@ print(sorted)
 ## Result
 Thus,the program has been executed successfully.
 
-# # NumPy Program: Find Indices Where Elements in Array x are Greater Than or Equal to Corresponding Elements in Array y
+# 5b.NumPy Program: Find Indices Where Elements in Array x are Greater Than or Equal to Corresponding Elements in Array y
 
-## 🎯 Aim
+##  Aim
 To write a Python program using **NumPy** that finds the indices where elements in array `x` are greater than or equal to their corresponding elements in array `y`.
 
-## 🧠 Algorithm
+##  Algorithm
 1. **Import NumPy**: Import the NumPy library.
 2. **Define Arrays**: Define two NumPy arrays, `x` and `y`, with the same shape (i.e., same number of elements).
 3. **Use Boolean Indexing**: 
@@ -41,7 +41,7 @@ To write a Python program using **NumPy** that finds the indices where elements 
 4. **Find Indices**: Use `np.where()` to get the indices where the conditions `x >= y` are satisfied.
 5. **Print Indices**: Print the indices where the condition holds true.
 
-## 🧾 Program
+##  Program
 
 ```
 import numpy as np
@@ -59,12 +59,12 @@ print(equal)
 ## Result
 Thus,the program has been executed successfully.
 
-# NumPy Program: Replace the Second Column in a 2D Array
+# 5c. NumPy Program: Replace the Second Column in a 2D Array
 
-## 🎯 Aim
+##  Aim
 To write a **NumPy** program that deletes the second column from a given 2D array and inserts a new column at the same position.
 
-## 🧠 Algorithm
+##  Algorithm
 1. **Import NumPy**: Start by importing the NumPy library.
 2. **Get Input**: Get a 2D NumPy array and a new column (as another array) from the user.
 3. **Delete Column**: Use `np.delete()` to remove the second column (index 1) from the original array.
@@ -93,15 +93,15 @@ print(result)
 ## Result
 Thus,the program has been executed successfully.
 
-# Pandas Program: Create and Display a DataFrame with Custom Index Labels
+# 5d.Pandas Program: Create and Display a DataFrame with Custom Index Labels
 
-## 🎯 Aim
+##  Aim
 
 To create and display a **DataFrame** using the **Pandas** library in Python from a given dictionary, and apply specific index labels to the rows.
 
 ---
 
-## 🧠 Algorithm
+##  Algorithm
 
 1. **Import Libraries**: Import the required libraries – `pandas` and `numpy`.
 2. **Create Dictionary**: Define a dictionary `exam_data` with keys: `'name'`, `'score'`, `'attempts'`, and `'qualify'`.
@@ -111,7 +111,7 @@ To create and display a **DataFrame** using the **Pandas** library in Python fro
 
 ---
 
-## 💻 Program
+##  Program
 ```
 import pandas as pd 
 import numpy as np 
@@ -131,15 +131,15 @@ print(df)
 ## Result
 Thus,the program has been executed successfully.
 
-# 🧪 Pandas Program: Join Two DataFrames Along Rows
+# 5e.Pandas Program: Join Two DataFrames Along Rows
 
-## 🎯 AIM
+##  AIM
 
 To write a Python program using Pandas to **join two DataFrames along rows** (row-wise concatenation) and assign all data to a new DataFrame.
 
 ---
 
-## 🧠 ALGORITHM
+## ALGORITHM
 
 1. **Import Libraries**: Import the `pandas` library.
 2. **Create First DataFrame**: Use a dictionary to create `student_data1`.
@@ -149,7 +149,7 @@ To write a Python program using Pandas to **join two DataFrames along rows** (ro
 
 ---
 
-## 💻 Program
+##  Program
 ```
 import pandas as pd
 a=eval(input())
